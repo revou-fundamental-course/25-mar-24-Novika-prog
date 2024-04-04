@@ -1,0 +1,38 @@
+.justify {
+    text-align: justify;
+}
+.calculator {
+    display: flex;
+    flex-direction: row;
+}
+.calculator1 {
+    flex: 2;
+    margin: 2%;
+}
+.background {
+    background-color: cornflowerblue;
+    border-radius: 2%;
+    padding: 2%;
+}
+.button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    background-color:#000;
+    color: #fff;
+    border-radius:2%;
+}
+#result {
+    background-color: cornflowerblue;
+    border-radius: 2%;
+    padding: 2%;
+    text-align: center;
+    color: white;
+}
